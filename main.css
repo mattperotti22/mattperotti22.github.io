@@ -4,17 +4,45 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: Pacifico;
 }
 
-@font-face {
-    font-family: 'Pacifico'; /*a name to be used later*/
-    src: url('fonts/Pacifico.ttf'); /*URL to font*/
-}
-
-.blacktext {
-	color: black;
+.name {
+	color: white;
 	text-align: center;
+}
 
+.tabledata {
+	color: white;
+    bottom: 0;
+    text-align: center;
+    font-family: fantasy;
+   	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+    width:100%; 
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: white;
 
 }
+
+.paddingbetweencols td {
+    padding:0 15px 0 15px;
+}
+
+a:link {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
