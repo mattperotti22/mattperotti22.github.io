@@ -7,6 +7,14 @@ body {
   font-family: Pacifico;
 }
 
+@font-face {
+    font-family: 'Pacifico'; /*a name to be used later*/
+    src: url('fonts/Pacifico.ttf'); /*URL to font*/
+}
+
 .blacktext {
-	color: #66FFDD
+	color: black;
+	text-align: center;
+
+
 }
